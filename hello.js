@@ -173,8 +173,8 @@ const showDetails = element => {
     strAlcoholic,
   } = element;
   document.getElementById('detailsBody').innerHTML = `
-  <div class="card card-side ">
-  <figure class="w-1/2 flex flex-col gap-3"><img  src="${strDrinkThumb}" alt="Drink"/>
+  <div class="card md:card-side ">
+  <figure class="w-full md:w-1/2 flex flex-col gap-3"><img  src="${strDrinkThumb}" alt="Drink"/>
   <h2 class="text-3xl font-semibold px-3">${strDrink}</h2>
   </figure>
   <div class="card-body">
